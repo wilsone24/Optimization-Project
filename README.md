@@ -13,9 +13,14 @@ There should be whitespace between paragraphs.
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 
-| ![Integrante 1]([enlace_imagen_1](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81))  | ![Integrante 2](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  | ![Integrante 3](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  | 
-| --- | --- | --- |
-| **Descripción 1:** Breve descripción del integrante 1. | **Descripción 2:** Breve descripción del integrante 2. | **Descripción 3:** Breve descripción del integrante 3. |
+| ![Integrante 1](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  | ![Integrante 2](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  |
+| --- | --- |
+| **Descripción 1:** Breve descripción del integrante 1. | **Descripción 2:** Breve descripción del integrante 2. |
+
+| ![Integrante 3](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  | ![Integrante 4](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  |
+| --- | --- |
+| **Descripción 3:** Breve descripción del integrante 3. | **Descripción 4:** Breve descripción del integrante 4. |
+
 
 
 # Header 1
