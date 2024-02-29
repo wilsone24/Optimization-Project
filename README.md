@@ -12,10 +12,11 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
+# Our Team
 
 | ![Integrante 1](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  | ![Integrante 2](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  |
 | --- | --- |
-| **Descripción 1:** Breve descripción del integrante 1. | **Descripción 2:** Breve descripción del integrante 2. |
+| **Descripción 1:** Breve descripción del integrante 1. | **Descripción 2:** Wilson Estrada es estudiante de la universidad del norte en el programa de ingenieria de sitemas en septimo semestre, graduado del biffi la salle school, su area de interes es enfocada hacia el big data, Cloud computing y tech sales.  Tiene concomiento en diversos elnguajes de programacion pero se enfoca principalmente en python. |
 
 | ![Integrante 3](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  | ![Integrante 4](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  |
 | --- | --- |
