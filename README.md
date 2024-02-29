@@ -1,24 +1,21 @@
 # Prediction Model
 
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
->
+## Dataset selection
 
 ## Our Team
 
-| ![Integrante 1](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  | ![Integrante 2](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  |
+| ![Integrante 1](https://github.com/wilsone24/Optimization-Project/assets/118389840/1ad141ba-4520-4d3e-add6-724df3f272ce)  | ![Integrante 2](https://github.com/wilsone24/Optimization-Project/assets/118389840/1ad141ba-4520-4d3e-add6-724df3f272ce)  |
 | --- | --- |
-| **Descripción 1:** Wilson Estrada es estudiante de la universidad del norte en el programa de ingenieria de sitemas en septimo semestre, graduado del biffi la salle school, su area de interes es enfocada hacia el big data, Cloud computing y tech sales.  Tiene concomiento en diversos elnguajes de programacion pero se enfoca principalmente en python. | **Descripción 2:** Wilson Estrada es estudiante de la universidad del norte en el programa de ingenieria de sitemas en septimo semestre, graduado del biffi la salle school, su area de interes es enfocada hacia el big data, Cloud computing y tech sales.  Tiene concomiento en diversos elnguajes de programacion pero se enfoca principalmente en python. |
+| **Data engineer**  Wilson Estrada Ortega is a student at the universidad del norte in the systems engineering program in seventh semester, graduated from biffi la salle school in 2020, his area of interest is focused on the management of big data, cloud computing and technology sales. He has concomiento in various programming languages but focuses mainly on python and sql for data manipulation. He is passionate about sports and learning new things. The role he will develop in the team will be a data engineer and will be one of the people in charge of data manipulation and data cleaning. | **Data engineer** Wilson Estrada Ortega is a student at the universidad del norte in the systems engineering program in seventh semester, graduated from biffi la salle school in 2020, his area of interest is focused on the management of big data, cloud computing and technology sales. He has concomiento in various programming languages but focuses mainly on python and sql for data manipulation. He is passionate about sports and learning new things. The role he will develop in the team will be a data engineer and will be one of the people in charge of data manipulation and data cleaning. |
 
-| ![Integrante 3](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  | ![Integrante 4](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  |
+| ![Integrante 3](https://github.com/wilsone24/Optimization-Project/assets/118389840/1ad141ba-4520-4d3e-add6-724df3f272ce)  | ![Integrante 4](https://github.com/wilsone24/Optimization-Project/assets/118389840/1ad141ba-4520-4d3e-add6-724df3f272ce)  |
 | --- | --- |
-| **Descripción 3:** Breve descripción del integrante 3. | **Descripción 4:** Breve descripción del integrante 4. |
+| **Data engineer** Wilson Estrada Ortega is a student at the universidad del norte in the systems engineering program in seventh semester, graduated from biffi la salle school in 2020, his area of interest is focused on the management of big data, cloud computing and technology sales. He has concomiento in various programming languages but focuses mainly on python and sql for data manipulation. He is passionate about sports and learning new things. The role he will develop in the team will be a data engineer and will be one of the people in charge of data manipulation and data cleaning. | **Data engineer** Wilson Estrada Ortega is a student at the universidad del norte in the systems engineering program in seventh semester, graduated from biffi la salle school in 2020, his area of interest is focused on the management of big data, cloud computing and technology sales. He has concomiento in various programming languages but focuses mainly on python and sql for data manipulation. He is passionate about sports and learning new things. The role he will develop in the team will be a data engineer and will be one of the people in charge of data manipulation and data cleaning. |
 
 
+## Visualizations
+
+## hypotheses
 
 ### Header 3
 
