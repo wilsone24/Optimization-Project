@@ -12,16 +12,6 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Our Team
-
-| ![Integrante 1](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  | ![Integrante 2](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  |
-| --- | --- |
-| **Descripción 1:** Wilson Estrada es estudiante de la universidad del norte en el programa de ingenieria de sitemas en septimo semestre, graduado del biffi la salle school, su area de interes es enfocada hacia el big data, Cloud computing y tech sales.  Tiene concomiento en diversos elnguajes de programacion pero se enfoca principalmente en python. | **Descripción 2:** Wilson Estrada es estudiante de la universidad del norte en el programa de ingenieria de sitemas en septimo semestre, graduado del biffi la salle school, su area de interes es enfocada hacia el big data, Cloud computing y tech sales.  Tiene concomiento en diversos elnguajes de programacion pero se enfoca principalmente en python. |
-
-| ![Integrante 3](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  | ![Integrante 4](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  |
-| --- | --- |
-| **Descripción 3:** Breve descripción del integrante 3. | **Descripción 4:** Breve descripción del integrante 4. |
-
 
 
 # Header 1
@@ -33,6 +23,19 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
+>
+
+## Our Team
+
+| ![Integrante 1](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  | ![Integrante 2](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  |
+| --- | --- |
+| **Descripción 1:** Wilson Estrada es estudiante de la universidad del norte en el programa de ingenieria de sitemas en septimo semestre, graduado del biffi la salle school, su area de interes es enfocada hacia el big data, Cloud computing y tech sales.  Tiene concomiento en diversos elnguajes de programacion pero se enfoca principalmente en python. | **Descripción 2:** Wilson Estrada es estudiante de la universidad del norte en el programa de ingenieria de sitemas en septimo semestre, graduado del biffi la salle school, su area de interes es enfocada hacia el big data, Cloud computing y tech sales.  Tiene concomiento en diversos elnguajes de programacion pero se enfoca principalmente en python. |
+
+| ![Integrante 3](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  | ![Integrante 4](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)  |
+| --- | --- |
+| **Descripción 3:** Breve descripción del integrante 3. | **Descripción 4:** Breve descripción del integrante 4. |
+
+
 
 ### Header 3
 
