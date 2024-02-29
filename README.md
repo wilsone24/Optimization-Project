@@ -12,6 +12,12 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
+
+| ![Integrante 1]([enlace_imagen_1](https://github.githubassets.com/images/icons/emoji/octocat.png))  | ![Integrante 2](https://github.githubassets.com/images/icons/emoji/octocat.png)  | ![Integrante 3](https://github.githubassets.com/images/icons/emoji/octocat.png)  |
+| --- | --- | --- |
+| **Descripción 1:** Breve descripción del integrante 1. | **Descripción 2:** Breve descripción del integrante 2. | **Descripción 3:** Breve descripción del integrante 3. |
+
+
 # Header 1
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
