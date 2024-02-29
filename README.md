@@ -99,6 +99,7 @@ end
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
 ### Large image
+![airport](https://github.com/wilsone24/Optimization-Project/assets/118389840/6a3d8962-7ec5-44c3-a38a-c4cbc3db3f81)
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
