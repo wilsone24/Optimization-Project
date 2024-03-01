@@ -10,8 +10,6 @@ After examining many datasets from which a future model could be derived, we cho
 
 | ![Integrante 1](https://github.com/wilsone24/Optimization-Project/assets/118389840/1ad141ba-4520-4d3e-add6-724df3f272ce)  | ![Integrante 2](images/fotoYM.png)                                                                                        |
 
-| --- | --- |
-
 | **Data engineer**  Wilson Estrada Ortega is a student at the universidad del norte in the systems engineering program in seventh semester, graduated from biffi la salle school in 2020, his area of interest is focused on the management of big data, cloud computing and technology sales. He has concomiento in various programming languages but focuses mainly on python and sql for data manipulation. He is passionate about sports and learning new things. The role he will develop in the team will be a data engineer and will be one of the people in charge of data manipulation and data cleaning. | **Data engineer** Wilson Estrada Ortega is a student at the universidad del norte in the systems engineering program in seventh semester, graduated from biffi la salle school in 2020, his area of interest is focused on the management of big data, cloud computing and technology sales. He has concomiento in various programming languages but focuses mainly on python and sql for data manipulation. He is passionate about sports and learning new things. The role he will develop in the team will be a data engineer and will be one of the people in charge of data manipulation and data cleaning. |
 
 
