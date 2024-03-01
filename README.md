@@ -4,7 +4,7 @@
 
 ## Dataset selection
 
-
+After examining many datasets from which a future model could be derived, we chose this one due to certain variables, such as the quantity of data it contains—around 300,000 rows—where valuable information can be extracted. This substantial amount of data allows for a more profound, clear, and optimal analysis of the problem. Additionally, it is known that ticket prices at airports pose a problem affecting millions of people every day, creating difficulties, whether economic or otherwise, for those accessing this service. Therefore, its impact on both the economy and the daily lives of individuals makes it a suitable dataset and problem to address. Similarly, the variables included in the dataset are well-known and easy to relate to when analyzing the problem. Finally, the data was collected in real-time through web scraping from a platform called Ease My Trip, a well-known travel agency that is frequently visited by many people daily. Addressing this issue could potentially result in a social benefit for all those individuals who wish to purchase or access this service at some point, enabling them to make the best decisions.
 
 ## Our Team
 
