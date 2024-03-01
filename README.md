@@ -1,4 +1,4 @@
-# Flights Prediction Model
+# Diamond Price Prediction
 
 ![Diseño sin título](https://github.com/wilsone24/Optimization-Project/assets/118389840/847f4541-c72a-4333-ae88-c49bf9192372)
 
