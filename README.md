@@ -20,8 +20,7 @@ After examining many datasets from which a future model could be derived, we cho
 
 ## Visualizations
 
-
-![alt text](image.png)
+![graphs](https://github.com/wilsone24/Optimization-Project/assets/118389840/b730627f-6528-478d-a752-e4925849b160)
 
 
 ## Observations
