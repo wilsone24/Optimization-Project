@@ -26,9 +26,9 @@ After examining various datasets from which a future model could be derived, we 
 
 Taking into account a first analysis and observing the dataset we can reach the following premises about the possible hypothesis.
 
-**Market Trends:**
-Observation: Explore market trends related to diamond prices over time, considering external factors such as economic conditions or industry changes.
-Objective: Identify and analyze trends in diamond prices, helping stakeholders make informed decisions based on the historical context.
+**Market Trends:** |
+- Observation: Explore market trends related to diamond prices over time, considering external factors such as economic conditions or industry changes.
+- Objective: Identify and analyze trends in diamond prices, helping stakeholders make informed decisions based on the historical context.
 
 **Regional Price Variations:**
 Observation: Examine whether diamond prices vary regionally, considering factors like demand, local preferences, and economic disparities.
