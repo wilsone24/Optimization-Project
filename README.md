@@ -58,27 +58,3 @@ Taking into account various observations, it is necessary to highlight the hypot
 Flight prices do not depend solely on one variable; instead, they are determined and influenced by multiple variables that collectively impact the price.
 This is the hypothesis that we will be developing throughout the model with the aim of identifying which variables have a greater influence on flight prices and in what manner.
 
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-
-```
-The final element.
-```
