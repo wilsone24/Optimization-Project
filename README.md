@@ -5,7 +5,7 @@
 
 ## Dataset selection
 
-After examining many datasets from which a future model could be derived, we chose this one due to certain variables, such as the quantity of data it contains around 300,000 rows where valuable information can be extracted. This substantial amount of data allows for a more profound, clear, and optimal analysis of the problem. Additionally, it is known that ticket prices at airports pose a problem affecting millions of people every day, creating difficulties, whether economic or otherwise, for those accessing this service. Therefore, its impact on both the economy and the daily lives of individuals makes it a suitable dataset and problem to address. Similarly, the variables included in the dataset are well-known and easy to relate to when analyzing the problem. Finally, the data was collected in real-time through web scraping from a platform called Ease My Trip, a well-known travel agency that is frequently visited by many people daily. Addressing this issue could potentially result in a social benefit for all those individuals who wish to purchase or access this service at some point, enabling them to make the best decisions.
+After examining various datasets from which a future model could be derived, we chose this one due to certain variables, such as the quantity of data it contains, around 53,940 rows where valuable information can be extracted. This substantial amount of data allows for a more profound, clear, and optimal analysis of the problem. Additionally, it is known that diamond prices pose a problem that affects people every day, creating economic difficulties, primarily focusing on individuals with the economic capacity to access these goods or entrepreneurs engaged in this business. Therefore, its impact on both the economy and the daily lives of people makes it a suitable dataset and problem to address. Similarly, the variables included in the dataset are well-known, easy to relate to when analyzing the problem, and the correlations found would facilitate the creation of our model. Finally, we consider that dealing with diamonds is not common, and for that reason, it seemed more interesting to us.
 
 ## Our Team
 
@@ -56,7 +56,5 @@ Taking into account a first analysis and observing the dataset we can reach the 
 
 ## hypothesis
 
-Taking into account various observations, it is necessary to highlight the hypothesis that the working team has about the dataset.
-Flight prices do not depend solely on one variable; instead, they are determined and influenced by multiple variables that collectively impact the price.
-This is the hypothesis that we will be developing throughout the model with the aim of identifying which variables have a greater influence on flight prices and in what manner.
+Taking into account various observations, it is necessary to highlight the initial hypothesis that the working team has about the dataset. Diamond prices do not depend solely on a particular variable; instead, they are determined and influenced by multiple variables, such as each of the different dimensions and weight, which collectively impact the price. This is the hypothesis we will be developing throughout the model with the objective of identifying which variables have a greater influence on diamond prices and in what manner.
 
