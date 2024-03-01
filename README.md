@@ -26,33 +26,33 @@ After examining various datasets from which a future model could be derived, we 
 
 Taking into account a first analysis and observing the dataset we can reach the following premises about the possible hypothesis.
 
-**Market Trends:** |
+**Market Trends:** 
 - Observation: Explore market trends related to diamond prices over time, considering external factors such as economic conditions or industry changes.
 - Objective: Identify and analyze trends in diamond prices, helping stakeholders make informed decisions based on the historical context.
 
 **Regional Price Variations:**
-Observation: Examine whether diamond prices vary regionally, considering factors like demand, local preferences, and economic disparities.
-Objective: Determine regional variations in diamond prices, providing insights into market dynamics across different geographic areas.
+- Observation: Examine whether diamond prices vary regionally, considering factors like demand, local preferences, and economic disparities.
+- Objective: Determine regional variations in diamond prices, providing insights into market dynamics across different geographic areas.
 
 **Brand Influence:**
-Observation: Investigate whether specific diamond brands or certifications impact prices, reflecting consumer preferences for certain brands.
-Objective: Understand the influence of brands on diamond prices and assess the role of brand reputation in the market.
+- Observation: Investigate whether specific diamond brands or certifications impact prices, reflecting consumer preferences for certain brands.
+- Objective: Understand the influence of brands on diamond prices and assess the role of brand reputation in the market.
 
 **Emerging Diamond Trends:**
-Observation: Keep an eye on emerging trends in the diamond industry, such as the popularity of certain cuts, colors, or ethical considerations.
-Objective: Stay informed about evolving industry trends to anticipate shifts in consumer preferences and market demands.
+- Observation: Keep an eye on emerging trends in the diamond industry, such as the popularity of certain cuts, colors, or ethical considerations.
+- Objective: Stay informed about evolving industry trends to anticipate shifts in consumer preferences and market demands.
 
 **Consumer Demographics:**
-Observation: Analyze whether the demographic characteristics of consumers, such as age, income, or cultural background, influence diamond preferences and prices.
-Objective: Gain insights into the demographic factors shaping the diamond market, allowing for targeted marketing strategies and product offerings.
+- Observation: Analyze whether the demographic characteristics of consumers, such as age, income, or cultural background, influence diamond preferences and prices.
+- Objective: Gain insights into the demographic factors shaping the diamond market, allowing for targeted marketing strategies and product offerings.
 
 **Online vs. In-Store Purchases:**
-Observation: Explore whether there are significant price differences between diamonds purchased online and those bought in physical stores.
-Objective: Understand the impact of the purchasing medium on diamond prices, catering to the evolving trends in consumer buying behavior.
+- Observation: Explore whether there are significant price differences between diamonds purchased online and those bought in physical stores.
+- Objective: Understand the impact of the purchasing medium on diamond prices, catering to the evolving trends in consumer buying behavior.
 
 **Environmental Impact Considerations:**
-Observation: Assess whether increasing awareness of environmental impact and ethical sourcing influences consumer choices and, subsequently, diamond prices.
-Objective: Examine the correlation between environmental considerations, ethical sourcing practices, and their effects on diamond prices in the market.
+- Observation: Assess whether increasing awareness of environmental impact and ethical sourcing influences consumer choices and, subsequently, diamond prices.
+- Objective: Examine the correlation between environmental considerations, ethical sourcing practices, and their effects on diamond prices in the market.
 
 ![Matriz de correlación](https://github.com/wilsone24/Optimization-Project/assets/118389840/cf952684-999a-4dfd-baf5-8bac9e6194fe)
 
