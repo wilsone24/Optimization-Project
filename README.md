@@ -1,6 +1,6 @@
 # Flights Prediction Model
 
-![alt text](air-freight.png)
+
 
 ## Dataset selection
 
@@ -8,23 +8,20 @@ After examining many datasets from which a future model could be derived, we cho
 
 ## Our Team
 
-| ![Integrante 1](https://github.com/wilsone24/Optimization-Project/assets/118389840/1ad141ba-4520-4d3e-add6-724df3f272ce)  | <img src="images/fotoYM.png" width="450">    |                                                                                   
-
-| **Data engineer**  Wilson Estrada Ortega is a student at the universidad del norte in the systems engineering program in seventh semester, graduated from biffi la salle school in 2020, his area of interest is focused on the management of big data, cloud computing and technology sales. He has concomiento in various programming languages but focuses mainly on python and sql for data manipulation. He is passionate about sports and learning new things. The role he will develop in the team will be a data engineer and will be one of the people in charge of data manipulation and data cleaning. | **Data engineer** Yuli Meza is currently in her ninth semester pursuing a degree in Systems Engineering at Universidad del Norte. Graduating from Lourdes High School in 2019, Yuli demonstrates proficiency in programming languages such as Python and Java. Her primary interest lies in cybersecurity, showcasing a dedication to the security and integrity of digital systems. Beyond academics, Yuli finds solace in playing the piano and maintains an active lifestyle through sports. |
-
-
-
-| ![Integrante 3]<img src="images/Felipe.png" width="300">   | ![Integrante 4](https://github.com/wilsone24/Optimization-Project/assets/118389840/1ad141ba-4520-4d3e-add6-724df3f272ce)  |
-
+| ![Integrante 1](https://github.com/wilsone24/Optimization-Project/assets/118389840/1ad141ba-4520-4d3e-add6-724df3f272ce)  | ![Integrante 2](https://github.com/wilsone24/Optimization-Project/assets/118389840/1ad141ba-4520-4d3e-add6-724df3f272ce)  |
 | --- | --- |
+| **Data engineer**  Wilson Estrada Ortega is a student at the universidad del norte in the systems engineering program in seventh semester, graduated from biffi la salle school in 2020, his area of interest is focused on the management of big data, cloud computing and technology sales. He has concomiento in various programming languages but focuses mainly on python and sql for data manipulation. He is passionate about sports and learning new things. The role he will develop in the team will be a data engineer and will be one of the people in charge of data manipulation and data cleaning. | **Data engineer** Wilson Estrada Ortega is a student at the universidad del norte in the systems engineering program in seventh semester, graduated from biffi la salle school in 2020, his area of interest is focused on the management of big data, cloud computing and technology sales. He has concomiento in various programming languages but focuses mainly on python and sql for data manipulation. He is passionate about sports and learning new things. The role he will develop in the team will be a data engineer and will be one of the people in charge of data manipulation and data cleaning. |
 
-| **Backend engineer** Felipe Benítez, a seventh-semester student at Universidad del Norte, graduated from nuevo colegio del prado, has a keen interest in backend development, databases, and distributed systems. With a passion for crafting robust solutions and learning from existent ones. Outside of the tech realm, Felipe enjoys expressing his creativity through drawing and has a particular fondness for manga. | **Frontend engineer** Wilson Estrada Ortega is a student at the universidad del norte in the systems engineering program in seventh semester, graduated from biffi la salle school in 2020, his area of interest is focused on the management of big data, cloud computing and technology sales. He has concomiento in various programming languages but focuses mainly on python and sql for data manipulation. He is passionate about sports and learning new things. The role he will develop in the team will be a data engineer and will be one of the people in charge of data manipulation and data cleaning. |
-
-
-
+| ![Integrante 3](https://github.com/wilsone24/Optimization-Project/assets/118389840/1ad141ba-4520-4d3e-add6-724df3f272ce)  | ![Integrante 4](https://github.com/wilsone24/Optimization-Project/assets/118389840/1ad141ba-4520-4d3e-add6-724df3f272ce)  |
+| --- | --- |
+| **Backend engineer** Wilson Estrada Ortega is a student at the universidad del norte in the systems engineering program in seventh semester, graduated from biffi la salle school in 2020, his area of interest is focused on the management of big data, cloud computing and technology sales. He has concomiento in various programming languages but focuses mainly on python and sql for data manipulation. He is passionate about sports and learning new things. The role he will develop in the team will be a data engineer and will be one of the people in charge of data manipulation and data cleaning. | **Frontend engineer** Wilson Estrada Ortega is a student at the universidad del norte in the systems engineering program in seventh semester, graduated from biffi la salle school in 2020, his area of interest is focused on the management of big data, cloud computing and technology sales. He has concomiento in various programming languages but focuses mainly on python and sql for data manipulation. He is passionate about sports and learning new things. The role he will develop in the team will be a data engineer and will be one of the people in charge of data manipulation and data cleaning. |
 
 
 ## Visualizations
+
+
+![alt text](image.png)
+
 
 ## Observations
 
