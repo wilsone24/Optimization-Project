@@ -26,31 +26,33 @@ After examining various datasets from which a future model could be derived, we 
 
 Taking into account a first analysis and observing the dataset we can reach the following premises about the possible hypothesis.
 
-- The ticket prices vary significantly between Economy and Business class, with one class having higher average ticket prices than the other.
+**Market Trends:**
+Observation: Explore market trends related to diamond prices over time, considering external factors such as economic conditions or industry changes.
+Objective: Identify and analyze trends in diamond prices, helping stakeholders make informed decisions based on the historical context.
 
-  - Objective: Explore and assert a significant difference in average ticket prices between Economy and Business class within the airline industry.
+**Regional Price Variations:**
+Observation: Examine whether diamond prices vary regionally, considering factors like demand, local preferences, and economic disparities.
+Objective: Determine regional variations in diamond prices, providing insights into market dynamics across different geographic areas.
 
+**Brand Influence:**
+Observation: Investigate whether specific diamond brands or certifications impact prices, reflecting consumer preferences for certain brands.
+Objective: Understand the influence of brands on diamond prices and assess the role of brand reputation in the market.
 
-- The ticket prices significantly vary depending on the departure and arrival times.
+**Emerging Diamond Trends:**
+Observation: Keep an eye on emerging trends in the diamond industry, such as the popularity of certain cuts, colors, or ethical considerations.
+Objective: Stay informed about evolving industry trends to anticipate shifts in consumer preferences and market demands.
 
-  - Objective: Understand whether specific times of the day contribute to variations in ticket pricing within the context of the airline industry.
+**Consumer Demographics:**
+Observation: Analyze whether the demographic characteristics of consumers, such as age, income, or cultural background, influence diamond preferences and prices.
+Objective: Gain insights into the demographic factors shaping the diamond market, allowing for targeted marketing strategies and product offerings.
 
+**Online vs. In-Store Purchases:**
+Observation: Explore whether there are significant price differences between diamonds purchased online and those bought in physical stores.
+Objective: Understand the impact of the purchasing medium on diamond prices, catering to the evolving trends in consumer buying behavior.
 
-- There is a significant correlation between the number of stops and ticket prices.
-
-  - Objective: Determine if there is a significant correlation between the number of stops and ticket prices, aiming to understand if travel convenience influences variations in ticket pricing.
-
-- The duration of the flight significantly impacts ticket prices, indicating a noticeable difference in average ticket prices based on varying flight durations.
-
-  - Objective: Explore how the duration of the flight impacts ticket prices, with the goal of understanding how time spent in transit contributes to variations in ticket pricing.
-
-- The timing of ticket purchase significantly affects ticket prices.
-
-  - Objective: Investigate whether the timing of ticket purchases significantly affects ticket prices, specifically exploring the impact of last-minute ticket purchases on variations in pricing.
-
-- The source and destination significantly influence ticket prices, indicating a substantial difference in average ticket prices when the source and destination are changed.
-
-  - Objective: Explore the influence of source and destination on ticket prices, aiming to understand if changes in these geographical factors contribute to substantial differences in ticket prices.
+**Environmental Impact Considerations:**
+Observation: Assess whether increasing awareness of environmental impact and ethical sourcing influences consumer choices and, subsequently, diamond prices.
+Objective: Examine the correlation between environmental considerations, ethical sourcing practices, and their effects on diamond prices in the market.
 
 ![Matriz de correlación](https://github.com/wilsone24/Optimization-Project/assets/118389840/cf952684-999a-4dfd-baf5-8bac9e6194fe)
 
