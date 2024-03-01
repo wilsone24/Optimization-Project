@@ -14,7 +14,7 @@ After examining many datasets from which a future model could be derived, we cho
 
 
 
-| ![Integrante 3](https://github.com/wilsone24/Optimization-Project/assets/118389840/1ad141ba-4520-4d3e-add6-724df3f272ce)  | ![Integrante 4](https://github.com/wilsone24/Optimization-Project/assets/118389840/1ad141ba-4520-4d3e-add6-724df3f272ce)  |
+| ![Integrante 3]<img src="images/Felipe.png" width="450">   | ![Integrante 4](https://github.com/wilsone24/Optimization-Project/assets/118389840/1ad141ba-4520-4d3e-add6-724df3f272ce)  |
 
 | --- | --- |
 
