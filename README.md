@@ -26,37 +26,41 @@ After examining various datasets from which a future model could be derived, we 
 
 Taking into account a first analysis and observing the dataset we can reach the following premises about the possible hypothesis.
 
-**Market Trends:** 
-- Observation: Explore market trends related to diamond prices over time, considering external factors such as economic conditions or industry changes.
-- Objective: Identify and analyze trends in diamond prices, helping stakeholders make informed decisions based on the historical context.
+**Price:**
+- Observation: Prices of diamonds range from $326 to $18,823.
+- Objective: Analyze the price distribution to identify patterns and trends within different price ranges, aiding in market segmentation.
+  
+**Carat Weight:**
+- Observation: Carat weights vary from 0.2 to 5.01.
+- Objective: Investigate the relationship between carat weight and diamond prices to understand the impact of weight on overall value.
 
-**Regional Price Variations:**
-- Observation: Examine whether diamond prices vary regionally, considering factors like demand, local preferences, and economic disparities.
-- Objective: Determine regional variations in diamond prices, providing insights into market dynamics across different geographic areas.
+**Cut Quality:**
+- Observation: Cut quality categories include Fair, Good, Very Good, Premium, and Ideal.
+- Objective: Explore the influence of cut quality on diamond prices, determining if certain cut categories command higher values.
+  
+**Color:**
+- Observation: Color is graded from J (worst) to D (best).
+- Objective: Examine the impact of color on diamond prices, specifically identifying whether diamonds closer to grade D exhibit higher values.
 
-**Brand Influence:**
-- Observation: Investigate whether specific diamond brands or certifications impact prices, reflecting consumer preferences for certain brands.
-- Objective: Understand the influence of brands on diamond prices and assess the role of brand reputation in the market.
+**Clarity:**
+- Observation: Clarity is measured from I1 (worst) to IF (best).
+- Objective: Investigate the correlation between clarity and diamond prices, aiming to understand how transparency influences perceived value.
 
-**Emerging Diamond Trends:**
-- Observation: Keep an eye on emerging trends in the diamond industry, such as the popularity of certain cuts, colors, or ethical considerations.
-- Objective: Stay informed about evolving industry trends to anticipate shifts in consumer preferences and market demands.
-
-**Consumer Demographics:**
-- Observation: Analyze whether the demographic characteristics of consumers, such as age, income, or cultural background, influence diamond preferences and prices.
-- Objective: Gain insights into the demographic factors shaping the diamond market, allowing for targeted marketing strategies and product offerings.
-
-**Online vs. In-Store Purchases:**
-- Observation: Explore whether there are significant price differences between diamonds purchased online and those bought in physical stores.
-- Objective: Understand the impact of the purchasing medium on diamond prices, catering to the evolving trends in consumer buying behavior.
-
-**Environmental Impact Considerations:**
-- Observation: Assess whether increasing awareness of environmental impact and ethical sourcing influences consumer choices and, subsequently, diamond prices.
-- Objective: Examine the correlation between environmental considerations, ethical sourcing practices, and their effects on diamond prices in the market.
+**Physical Dimensions (X, Y, Z):**
+- Observation: Dimensions include length (0-10.74 mm), width (0-58.9 mm), and depth (0-31.8 mm).
+- Objective: Explore the relationship between physical dimensions and diamond prices, considering the importance of shape and proportions.
+  
+**Depth:**
+- Observation: Total depth percentage (43-79) is calculated using dimensions x, y, and z.
+- Objective: Analyze the depth percentage and its potential correlation with diamond prices, understanding how depth influences visual characteristics.
+  
+**Table:**
+- Observation: Table width (43-95) represents the width of the top of the diamond relative to the widest point.
+- Objective: Investigate the influence of table width on diamond prices, determining whether a wider table correlates with increased brilliance and higher values.
 
 ![Matriz de correlación](https://github.com/wilsone24/Optimization-Project/assets/118389840/cf952684-999a-4dfd-baf5-8bac9e6194fe)
 
-## hypothesis
+## Hypothesis
 
 Taking into account various observations, it is necessary to highlight the initial hypothesis that the working team has about the dataset. Diamond prices do not depend solely on a particular variable; instead, they are determined and influenced by multiple variables, such as each of the different dimensions and weight, which collectively impact the price. This is the hypothesis we will be developing throughout the model with the objective of identifying which variables have a greater influence on diamond prices and in what manner.
 
