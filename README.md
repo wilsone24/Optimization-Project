@@ -21,7 +21,7 @@ After examining various datasets from which a future model could be derived, we 
 
 ![graphs](https://github.com/wilsone24/Optimization-Project/assets/118389840/b730627f-6528-478d-a752-e4925849b160)
 
-## Observations
+## Statistical insights
 
 Taking into account the following analysis and observing the dataset, we can derive the following premises:
 
