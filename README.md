@@ -53,6 +53,7 @@ Taking into account a first analysis and observing the dataset we can reach the 
 
   - Objective: Explore the influence of source and destination on ticket prices, aiming to understand if changes in these geographical factors contribute to substantial differences in ticket prices.
 
+![Matriz de correlación](https://github.com/wilsone24/Optimization-Project/assets/118389840/cf952684-999a-4dfd-baf5-8bac9e6194fe)
 
 ## hypothesis
 
