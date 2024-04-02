@@ -55,17 +55,30 @@ Taking into account various observations, it is necessary to highlight the initi
 
 First, we clean the data to remove dimensionless diamonds. Based on the initial analysis, we choose a linear regression model due to the high correlation between price and many variables, considering that there could be a linear relationship and price is a continuous variable. We select carat and x as our model variables.
 
-###  $$price=533.90+9399.81\cdot carat - 1158.90 \cdot z $$
+$$price=533.90+9399.81\cdot carat - 1158.90 \cdot z $$
 
 
 We opted for carat and z because, in our opinion and according to our descriptive analysis, they are the variables that most characterize the price of diamonds. Carat represents the weight of the diamond, and z represents the depth. According to our research, the greater the weight and depth of the diamond, the higher its cost. We discarded the other dimensions (x, y) because when included in the model alongside carat and x, a high correlation was observed among them, and the model's outcome did not significantly vary. Therefore, we selected the variable that had the most influence on the model among the three dimensions. In this initial part of the analysis, we did not use the categorical variables from the dataset because we considered them not highly relevant in this context.
 
+![Diamond dimension](https://github.com/wilsone24/Optimization-Project/assets/118389840/b96a148f-89b6-4daa-a256-ecff1550e735)
 
 ### Validation method and metrics
 
 For the model validation process, cross-validation technique was employed to flag problems such as overfitting or selection bias. The data was divided into training and testing sets, with an 80-20 ratio, respectively. First, a linear regression model was fitted using the training data, and then the obtained model was validated using the test data to evaluate its performance against data not seen during the model training.
 
+![Score Model](https://github.com/wilsone24/Optimization-Project/assets/118389840/6e4a7d58-380f-4677-a4eb-6767d0be68c1)
+
 To primarily evaluate the predictive capability and performance of the model, the score or the coefficient of determination R2 was used as a metric to analyze the correlation between the model predictions and the actual data. We consider this to be the best measure as it provides an idea of the model's fit quality to the data. Additionally, the MSE and RMSE were obtained to assess how close the model predictions are to the actual values.
+
+<div align="center">
+
+| Metric    | Value     |
+|-----------|-----------|
+| Score    | 0.8558926  |
+| MSE      | 2257140.68 |
+| RMSE     | 1502.378   |
+
+</div>
 
 ### Preliminary conclusions
 
