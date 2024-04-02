@@ -63,6 +63,9 @@ We opted for carat and z because, in our opinion and according to our descriptiv
 
 ### Validation method and metrics
 
+For the model validation process, cross-validation technique was employed to flag problems such as overfitting or selection bias. The data was divided into training and testing sets, with an 80-20 ratio, respectively. First, a linear regression model was fitted using the training data, and then the obtained model was validated using the test data to evaluate its performance against data not seen during the model training.
+
+To primarily evaluate the predictive capability and performance of the model, the score or the coefficient of determination R2 was used as a metric to analyze the correlation between the model predictions and the actual data. We consider this to be the best measure as it provides an idea of the model's fit quality to the data. Additionally, the MSE and RMSE were obtained to assess how close the model predictions are to the actual values.
 
 ### Preliminary conclusions
 
