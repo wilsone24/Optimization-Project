@@ -7,7 +7,7 @@
 
 After examining various datasets from which a future model could be derived, we chose this one due to certain variables, such as the quantity of data it contains, around 53,940 rows where valuable information can be extracted. This substantial amount of data allows for a more profound, clear, and optimal analysis of the problem. Additionally, it is known that diamond prices pose a problem that affects people every day, creating economic difficulties, primarily focusing on individuals with the economic capacity to access these goods or entrepreneurs engaged in this business. Therefore, its impact on both the economy and the daily lives of people makes it a suitable dataset and problem to address. Similarly, the variables included in the dataset are well-known, easy to relate to when analyzing the problem, and the correlations found would facilitate the creation of our model. Finally, we consider that dealing with diamonds is not common, and for that reason, it seemed more interesting to us.
 
-## Our Team
+### Our Team
 
 | ![Integrante 1](https://github.com/wilsone24/Optimization-Project/assets/118389840/1ad141ba-4520-4d3e-add6-724df3f272ce)  | ![Integrante 2](https://github.com/wilsone24/Optimization-Project/assets/118389840/92da7de6-a034-40f4-affa-2887ebc5fed3)  |
 | --- | --- |
@@ -17,11 +17,11 @@ After examining various datasets from which a future model could be derived, we 
 | --- | --- |
 | **Backend engineer** Felipe Benítez, a seventh-semester student at Universidad del Norte, graduated from nuevo colegio del prado, has a keen interest in backend development, databases, and distributed systems. With a passion for crafting robust solutions and learning from existent ones. Outside of the tech realm, Felipe enjoys expressing his creativity through drawing and has a particular fondness for manga. | **Frontend engineer** Yordi González, a seventh-semester systems engineering student at Universidad del Norte, graduated from I.E.T.C. Francisco Javier Cisneros at 2020, who has some experience in backend development and database management. Proficient in Python, SQL, and relational databases. Dedicated to designing efficient systems to meet project goals. I am responsible for the visual part of the project emphasizing the user experience. |
 
-## Visualizations
+### Visualizations
 
 ![graphs](https://github.com/wilsone24/Optimization-Project/assets/118389840/b730627f-6528-478d-a752-e4925849b160)
 
-## Statistical insights
+### Statistical insights
 
 Taking into account the following analysis and observing the dataset, we can derive the following premises:
 
@@ -35,7 +35,43 @@ Taking into account the following analysis and observing the dataset, we can der
 
 ![Matriz de correlación](https://github.com/wilsone24/Optimization-Project/assets/118389840/cf952684-999a-4dfd-baf5-8bac9e6194fe)
 
-## Hypothesis
+### Hypothesis
 
 Taking into account various observations, it is necessary to highlight the initial hypothesis that the working team has about the dataset. Diamond prices do not depend solely on a particular variable; instead, they are determined and influenced by multiple variables, such as each of the different dimensions and weight, which collectively impact the price. This is the hypothesis we will be developing throughout the model with the objective of identifying which variables have a greater influence on diamond prices and in what manner.
 
+## Model Selection I
+
+### Objectives
+
+* Identify the variables (dimensions and characteristics) that explain to a greater extent the behavior of diamond prices to build the predictive model and understand how these variables affect them.
+
+* Compare different models to determine which one offers the best accuracy.
+
+* Have an impact on the diamond market analysis by allowing for a more effective evaluation of their prices.
+
+
+
+### Details about your selection
+
+First, we clean the data to remove dimensionless diamonds. Based on the initial analysis, we choose a linear regression model due to the high correlation between price and many variables, considering that there could be a linear relationship and price is a continuous variable. We select carat and x as our model variables.
+
+###  $$price=533.90+9399.81\cdot carat - 1158.90 \cdot z $$
+
+
+We opted for carat and z because, in our opinion and according to our descriptive analysis, they are the variables that most characterize the price of diamonds. Carat represents the weight of the diamond, and z represents the depth. According to our research, the greater the weight and depth of the diamond, the higher its cost. We discarded the other dimensions (x, y) because when included in the model alongside carat and x, a high correlation was observed among them, and the model's outcome did not significantly vary. Therefore, we selected the variable that had the most influence on the model among the three dimensions. In this initial part of the analysis, we did not use the categorical variables from the dataset because we considered them not highly relevant in this context.
+
+
+### Validation method and metrics
+
+
+### Preliminary conclusions
+
+* It can be established by observing the score that the model is good and largely describes the variability of the price.
+
+* I t is noted that with the other measures, the model is not the most precise; price predictions are not exact and have a margin within which the predicted value can differ from the actual one.
+
+* After many tests, it has been determined that the variable that most influences the model is carat.
+
+* A pattern is observed where the model does a much better job of predicting relatively low diamond prices than high prices, where precision is lower.
+
+* It is essential to evaluate how significant the difference between actual and predicted values would be for practical use in the market. If exact precision is not needed, the diamond price could be adequately described in this manner.
