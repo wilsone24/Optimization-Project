@@ -65,8 +65,6 @@ We opted for carat and z because, in our opinion and according to our descriptiv
 
 For the model validation process, cross-validation technique was employed to flag problems such as overfitting or selection bias. The data was divided into training and testing sets, with an 80-20 ratio, respectively. First, a linear regression model was fitted using the training data, and then the obtained model was validated using the test data to evaluate its performance against data not seen during the model training.
 
-![Score Model](https://github.com/wilsone24/Optimization-Project/assets/118389840/6e4a7d58-380f-4677-a4eb-6767d0be68c1)
-
 ![Score and Residuals](https://github.com/wilsone24/Optimization-Project/assets/118389840/39263c05-fecb-45b2-9a39-140bb3661a3f)
 
 
