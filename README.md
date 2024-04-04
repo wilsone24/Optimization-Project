@@ -53,7 +53,7 @@ Taking into account various observations, it is necessary to highlight the initi
 
 ### Details about your selection
 
-First, we clean the data to remove dimensionless diamonds. Based on the initial analysis, we choose a linear regression model due to the high correlation between price and many variables, considering that there could be a linear relationship and price is a continuous variable. We select carat and x as our model variables.
+First, we clean the data to remove dimensionless diamonds. Based on the initial analysis, we choose a linear regression model due to the high correlation between price and many variables, considering that there could be a linear relationship and price is a continuous variable. We select carat and z as our model variables.
 
 ![Eq Model](https://github.com/wilsone24/Optimization-Project/assets/118389840/3fa4acae-745c-4587-9c9e-854537ef6ec9)
 
