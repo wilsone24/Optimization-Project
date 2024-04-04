@@ -67,6 +67,9 @@ For the model validation process, cross-validation technique was employed to fla
 
 ![Score Model](https://github.com/wilsone24/Optimization-Project/assets/118389840/6e4a7d58-380f-4677-a4eb-6767d0be68c1)
 
+![Score and Residuals](https://github.com/wilsone24/Optimization-Project/assets/118389840/39263c05-fecb-45b2-9a39-140bb3661a3f)
+
+
 To primarily evaluate the predictive capability and performance of the model, the score or the coefficient of determination R2 was used as a metric to analyze the correlation between the model predictions and the actual data. We consider this to be the best measure as it provides an idea of the model's fit quality to the data. Additionally, the MSE and RMSE were obtained to assess how close the model predictions are to the actual values.
 
 | Metric    | Value     |
