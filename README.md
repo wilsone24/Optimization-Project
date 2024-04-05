@@ -63,7 +63,9 @@ We opted for carat and z because, in our opinion and according to our descriptiv
 
 ### Validation method and metrics
 
-For the model validation process, cross-validation technique was employed to flag problems such as overfitting or selection bias. The data was divided into training and testing sets, with an 80-20 ratio, respectively. First, a linear regression model was fitted using the training data, and then the obtained model was validated using the test data to evaluate its performance against data not seen during the model training.
+For the model validation process, a cross-validation technique was employed. This strategy was specifically chosen to mitigate common issues such as overfitting or selection bias, which could affect the model's ability to generalize to new data. The available data was randomly split into two distinct sets: one for training and the other for testing, with a proportion of 80% and 20% respectively. Subsequently, the linear regression model was fitted using the training data to capture the relationship between predictor variables (such as carat weight and depth) and the price of diamonds. Then, the model was validated using the testing data to assess its performance against unseen data during training. This separation between training and testing data helps estimate how the model will perform with new observations, thus providing a more robust evaluation of its predictive ability and its capacity for generalization to new data.
+
+
 
 ![Score and Residuals](https://github.com/wilsone24/Optimization-Project/assets/118389840/39263c05-fecb-45b2-9a39-140bb3661a3f)
 
