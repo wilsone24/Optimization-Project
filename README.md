@@ -96,7 +96,7 @@ To primarily evaluate the predictive capability and performance of the model, th
 
 In this case, we chose a type of neural network known as an MLP (Multilayer Perceptron). After cleaning the data and removing dimensionless data, we eliminated outliers that exhibited highly unusual behavior compared to the distributions of other diamond features and measurements. We opted for neural networks because we observed that the data's behavior was not strictly linear, and we wanted to capture that non-linearity in some way. Neural networks offer us the possibility to do this thanks to their multiple layers and the weights between neurons that adjust with the data. Additionally, their strength lies in their ability to learn complex patterns and relationships, making them suitable given that the customizable architecture of MLP allows us to adjust the network's topology to optimize performance.
 
-![Loss Curve Rn](https://github.com/wilsone24/Optimization-Project/assets/118389840/7553924e-0e26-4dc2-8889-8c1436dd2df4)
+![RN ARCH](https://github.com/wilsone24/Optimization-Project/assets/118389840/276c172b-8880-4180-8329-57c2ee6b3fa6)
 
 The next step was to discretize the qualitative variables, assigning them a corresponding value to observe their influence on the model's quality. After conducting tests, we chose Carat and Z as our inputs, which, as mentioned in the previous model, largely explain the diamond's price. Additionally, we added 'cut', 'color', and 'clarity', initially categorical and now numerical, as inputs because we observed that they have a greater influence than the other numerical variables. After several benchmarks with different architectures to find the optimal one, we used the following configuration: 5 inputs, 7 hidden layers (20 neurons per layer), 1 output, default Alpha, maximum 600 iterations, and Relu activation function (which provided the best result).
 
@@ -104,11 +104,11 @@ The next step was to discretize the qualitative variables, assigning them a corr
 
 Cross-validation technique was used to avoid overfitting or bias issues, with an 80% data partition for training and the remaining 20% for testing. This allowed us to evaluate the model with data it hadn't seen before. Due to the prolonged duration of the process and the associated computational cost, attributed to the large amount of data, only 20 iterations were conducted to observe the score distribution across different data partitions. This helped us determine how sensitive the score is to data partitioning and how scattered the values are around the most likely score.
 
-![Loss Curve Rn](https://github.com/wilsone24/Optimization-Project/assets/118389840/1aa0c2ae-a8a7-4a0b-a243-b9d1ed5fba6b)
+![Regression RN](https://github.com/wilsone24/Optimization-Project/assets/118389840/6255603a-459f-4f43-88e6-a8a1b2bb3ad2)
 
 We obtained an average score of 0.9757, which is where the highest density is observed, with an operational margin of 0.5%. This means that the score can fluctuate between values close to 97% and 98% with the same probability. These results give us a good idea of the model's quality in relation to the data.
 
-![Loss Curve Rn](https://github.com/wilsone24/Optimization-Project/assets/118389840/c41d483e-12c5-4593-a352-915379ae5587)
+![Scores Rn](https://github.com/wilsone24/Optimization-Project/assets/118389840/bfe83748-4967-40ea-81c0-80346283f111)
 
 Afterward, the loss curve was observed to understand how the process improves over iterations. It can be seen that only 175 iterations out of the initially indicated 600 were necessary, and the process stopped there because no substantial changes in the loss function were observed.
 
@@ -122,9 +122,9 @@ The last iteration was chosen to observe its score (how good the model is) and t
 
 | Metric    | Value     |
 |-----------|-----------|
-| Score    | 0.8558926  |
-| MSE      | 2257140.68 |
-| RMSE     | 1502.378   |
+| Score    | 0.973224   |
+| MSE      | 427736.75  |
+| RMSE     | 654.0158   |
 
 The distribution of residuals and predicted values was verified compared to the actual data to evaluate the model's quality more accurately. It was found that the highest density of residuals is centered around 0, and the distribution of predicted values is very similar graphically to that of the actual values. Although there are certain peaks where they differ, the difference is minimal.
 
