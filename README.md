@@ -63,7 +63,7 @@ We opted for carat and z because, in our opinion and according to our descriptiv
 
 ### Validation method and metrics
 
-For the model validation process, a cross-validation technique was employed. This strategy was specifically chosen to mitigate common issues such as overfitting or selection bias, which could affect the model's ability to generalize to new data. The available data was randomly split into two distinct sets: one for training and the other for testing, with a proportion of 80% and 20% respectively. Subsequently, the linear regression model was fitted using the training data to capture the relationship between predictor variables (such as carat weight and depth) and the price of diamonds. Then, the model was validated using the testing data to assess its performance against unseen data during training. This separation between training and testing data helps estimate how the model will perform with new observations, thus providing a more robust evaluation of its predictive ability and its capacity for generalization to new data.
+For the model validation process, cross-validation technique was employed to flag problems such as overfitting or selection bias. The data was divided into training and testing sets, with an 80-20 ratio, respectively. First, a linear regression model was fitted using the training data, and then the obtained model was validated using the test data to evaluate its performance against data not seen during the model training.
 
 
 
@@ -89,3 +89,74 @@ To primarily evaluate the predictive capability and performance of the model, th
 * A pattern is observed where the model does a much better job of predicting relatively low diamond prices than high prices, where precision is lower.
 
 * It is essential to evaluate how significant the difference between actual and predicted values would be for practical use in the market. If exact precision is not needed, the diamond price could be adequately described in this manner.
+
+## Model Selection II
+
+### Details about your selection
+
+In this case, we chose a type of neural network known as an MLP (Multilayer Perceptron). After cleaning the data and removing dimensionless data, we eliminated outliers that exhibited highly unusual behavior compared to the distributions of other diamond features and measurements. We opted for neural networks because we observed that the data's behavior was not strictly linear, and we wanted to capture that non-linearity in some way. Neural networks offer us the possibility to do this thanks to their multiple layers and the weights between neurons that adjust with the data. Additionally, their strength lies in their ability to learn complex patterns and relationships, making them suitable given that the customizable architecture of MLP allows us to adjust the network's topology to optimize performance.
+
+Picture
+
+The next step was to discretize the qualitative variables, assigning them a corresponding value to observe their influence on the model's quality. After conducting tests, we chose Carat and Z as our inputs, which, as mentioned in the previous model, largely explain the diamond's price. Additionally, we added 'cut', 'color', and 'clarity', initially categorical and now numerical, as inputs because we observed that they have a greater influence than the other numerical variables. After several benchmarks with different architectures to find the optimal one, we used the following configuration: 5 inputs, 7 hidden layers (20 neurons per layer), 1 output, default Alpha, maximum 600 iterations, and Relu activation function (which provided the best result).
+
+### Validation method and metrics
+
+Cross-validation technique was used to avoid overfitting or bias issues, with an 80% data partition for training and the remaining 20% for testing. This allowed us to evaluate the model with data it hadn't seen before. Due to the prolonged duration of the process and the associated computational cost, attributed to the large amount of data, only 20 iterations were conducted to observe the score distribution across different data partitions. This helped us determine how sensitive the score is to data partitioning and how scattered the values are around the most likely score.
+
+Picture
+
+
+We obtained an average score of 0.9757, which is where the highest density is observed, with an operational margin of 0.5%. This means that the score can fluctuate between values close to 97% and 98% with the same probability. These results give us a good idea of the model's quality in relation to the data.
+
+Picture
+
+
+Afterward, the loss curve was observed to understand how the process improves over iterations. It can be seen that only 175 iterations out of the initially indicated 600 were necessary, and the process stopped there because no substantial changes in the loss function were observed.
+
+Picture
+
+
+The correlation between the variables and the weights assigned in the last layer concerning the output is evident.
+
+Picture
+
+The last iteration was chosen to observe its score (how good the model is) and to get a good idea of the MSE and RMSE, which allows us to evaluate how close the model's predictions are to the actual values.
+
+| Metric    | Value     |
+|-----------|-----------|
+| Score    | 0.8558926  |
+| MSE      | 2257140.68 |
+| RMSE     | 1502.378   |
+
+The distribution of residuals and predicted values was verified compared to the actual data to evaluate the model's quality more accurately. It was found that the highest density of residuals is centered around 0, and the distribution of predicted values is very similar graphically to that of the actual values. Although there are certain peaks where they differ, the difference is minimal.
+
+Pictures
+
+### Preliminary conclusions
+
+* The model achieved an excellent score, indicating that it is very good and describes the output variable well.
+
+* It is noted that, although the score is very high, there is still some lack of precision in predicting the price given the values of MSE and RMSE.
+
+* The proposed categorical variables have a significant influence on the diamond price behavior.
+
+* The number of layers in the proposed architecture allows for representing much more complex relationships, aiding in capturing a greater variability of the data.
+
+* In other words, the high number of layers and neurons significantly influence the model's quality.
+
+* The predictions align very well graphically with reality, increasing confidence in the model and suggesting it could be implemented in the market.
+
+### How does this model compare to the first one?
+
+* The score was improved, increasing from 0.88 to 0.975, indicating an improvement in the model's quality.
+
+* Regarding the obtained residuals, there is a reduction in their dispersion in the neural network compared to linear regression.
+
+* Metrics such as MSE and RMSE were lower in the neural network than in linear regression, indicating an improvement in accuracy when predicting the data.
+
+* When comparing the regression plots in both the neural network and linear regression to visualize the relationship between the model's prediction and the actual values, a reduction in the variability of the slope, which would be the score, is observed.
+
+* When comparing the distribution plots of predictions and actual values of both models, it can be seen how in the neural network, the predictions more closely resemble the actual values, although not perfectly, but the distribution is very similar.
+
+* All of this suggests that with the neural network architecture, much more complex relationships can be captured than with linear regression.
