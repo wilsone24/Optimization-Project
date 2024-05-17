@@ -66,18 +66,39 @@ We opted for carat and z because, in our opinion and according to our descriptiv
 
 For the model validation process, a cross-validation technique was employed to detect issues such as overfitting or selection bias. The data was divided into training and testing sets, with an 80-20 ratio, respectively. The process was repeated 1000 times, where in each iteration, a linear regression model was first fitted using the training data, and then the obtained model was validated using the testing data to evaluate its performance against unseen data during the model training. This allows us to have a better insight and overview of the overall model quality rather than just under one data split, so in each iteration, samples were taken to better understand the model's behavior.
 
+Foto Score
 
+At the end of the 1000 iterations, an average score of 0.8564 was achieved, which is the peak of the bell curve and where there is the highest density of score samples. This is not the actual score of the model, but rather an approximation through the distribution of the samples taken. An operating margin of 1.5% was obtained, where scores can range from 84% to 87% depending on the partition.
 
-![Score and Residuals](https://github.com/wilsone24/Optimization-Project/assets/118389840/39263c05-fecb-45b2-9a39-140bb3661a3f)
+Foto Intercepto
 
+At the end of the 1000 iterations, an average intercept of 3170.410 was achieved. An operating margin of 400 was obtained, where intercept values can range from 2800 to 3600, depending on the partition.
 
-To primarily evaluate the predictive capability and performance of the model, the $R^{2}$ score or coefficient of determination was used as a metric to analyze the correlation between the model's predictions and the actual data. We consider this to be the best measure as it provides an idea of the quality of the model's fit to the data. Additionally, the MSE and RMSE were calculated to assess how close the model's predictions are to the actual values. All of this was done considering the model created from the average of the coefficients and intercept, which resulted in a slightly higher score than the average.
+Foto params
+
+At the end of the 1000 iterations, an average carat of 10976.82 and an average z of -2258.90 were achieved. It can be observed that the relationship between the two parameters is inversely proportional: as the carat increases, the z decreases in value, according to the distribution of the parameters.
+
+Foto Formula
+
+For the final model, the average values of both the intercept and the parameters were applied to conduct various validations of the model and assess how good it is. Additionally, the correlation of the variables in our new model is also shown.
+
+Foto de la correlación  y regresion
+
+The correlation between the variables of the final model was obtained, noting that they are highly correlated and that removing one would not result in a drastic change in the model's score. It would have an impact and it would be lower, but not drastically so. The regression is observed, showing how well the model fits the data, how much dispersion of the model is captured by the data, and whether what the model says is actually true.
+
+Foto 2 graficas esas
+
+Likewise, to obtain other ways of visualizing the model's quality, we chose to observe the distribution of residuals and the comparison between predicted and actual values. It was found that the highest density of errors is centered around 0; however, there is dispersion and uncertainty. In another graph, it was observed that although initially there is a higher density of data corresponding to lower-priced diamonds, the distributions of the actual and predicted values are similar but differ slightly. As the diamond price increases, it is observed that the behavior of the actual values is not fully captured in the distribution of the predicted values.
 
 | Metric    | Value     |
 |-----------|-----------|
 | Score    | 0.8669998  |
 | MSE      | 2077644.93 |
 | RMSE     | 1441.403   |
+
+To primarily evaluate the predictive capability and performance of the model, the $R^{2}$ score or coefficient of determination was used as a metric to analyze the correlation between the model's predictions and the actual data. We consider this to be the best measure as it provides an idea of the quality of the model's fit to the data. Additionally, the MSE and RMSE were calculated to assess how close the model's predictions are to the actual values. All of this was done considering the model created from the average of the coefficients and intercept, which resulted in a slightly higher score than the average.
+
+
 
 ### Preliminary conclusions
 
