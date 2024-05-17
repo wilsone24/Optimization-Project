@@ -86,17 +86,13 @@ The correlation between the variables of the final model was obtained, noting th
 
 ![bna](https://github.com/wilsone24/Optimization-Project/assets/118389840/68610b0d-3db5-4292-8243-ecc12ccf6cfb)
 
-Likewise, to obtain other ways of visualizing the model's quality, we chose to observe the distribution of residuals and the comparison between predicted and actual values. It was found that the highest density of errors is centered around 0; however, there is dispersion and uncertainty. In another graph, it was observed that although initially there is a higher density of data corresponding to lower-priced diamonds, the distributions of the actual and predicted values are similar but differ slightly. As the diamond price increases, it is observed that the behavior of the actual values is not fully captured in the distribution of the predicted values.
+Likewise, to obtain other ways of visualizing the model's quality, we chose to observe the distribution of residuals and the comparison between predicted and actual values. It was found that the highest density of errors is centered around 0; however, there is dispersion and uncertainty. In another graph, it was observed that although initially there is a higher density of data corresponding to lower-priced diamonds, the distributions of the actual and predicted values are similar but differ slightly. As the diamond price increases, it is observed that the behavior of the actual values is not fully captured in the distribution of the predicted values. To primarily evaluate the predictive capability and performance of the model, the $R^{2}$ score or coefficient of determination was used as a metric to analyze the correlation between the model's predictions and the actual data. We consider this to be the best measure as it provides an idea of the quality of the model's fit to the data. Additionally, the MSE and RMSE were calculated to assess how close the model's predictions are to the actual values. All of this was done considering the model created from the average of the coefficients and intercept, which resulted in a slightly higher score than the average.
 
 | Metric    | Value     |
 |-----------|-----------|
 | Score    | 0.8669998  |
 | MSE      | 2077644.93 |
 | RMSE     | 1441.403   |
-
-To primarily evaluate the predictive capability and performance of the model, the $R^{2}$ score or coefficient of determination was used as a metric to analyze the correlation between the model's predictions and the actual data. We consider this to be the best measure as it provides an idea of the quality of the model's fit to the data. Additionally, the MSE and RMSE were calculated to assess how close the model's predictions are to the actual values. All of this was done considering the model created from the average of the coefficients and intercept, which resulted in a slightly higher score than the average.
-
-
 
 ### Preliminary conclusions
 
