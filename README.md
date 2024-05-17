@@ -77,7 +77,7 @@ At the end of the 1000 iterations, an average intercept of 3170.410 was achieved
 
 At the end of the 1000 iterations, an average carat of 10976.82 and an average z of -2258.90 were achieved. It can be observed that the relationship between the two parameters is inversely proportional: as the carat increases, the z decreases in value, according to the distribution of the parameters. For the final model, the average values of both the intercept and the parameters were applied to conduct various validations of the model and assess how good it is. Additionally, the correlation of the variables in our new model is also shown.
 
-![Eq_M1](https://github.com/wilsone24/Optimization-Project/assets/118389840/c2a6ad58-2a6e-4e6e-a9e7-48124bb66233)
+![Eq_M1](https://github.com/wilsone24/Optimization-Project/assets/118389840/beaf3d88-06a5-4250-862e-dd5ec861b811)
 
 ![Reg-Corr_M1](https://github.com/wilsone24/Optimization-Project/assets/118389840/e2e4df4f-d30f-4613-a706-15df90d33386)
 
