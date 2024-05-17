@@ -83,7 +83,7 @@ At the end of the 1000 iterations, an average carat of 10976.82 and an average z
 
 The correlation between the variables of the final model was obtained, noting that they are highly correlated and that removing one would not result in a drastic change in the model's score. It would have an impact and it would be lower, but not drastically so. The regression is observed, showing how well the model fits the data, how much dispersion of the model is captured by the data, and whether what the model says is actually true.
 
-![aa](https://github.com/wilsone24/Optimization-Project/assets/118389840/c00344c7-814e-4730-80c6-6050957559c1)
+![xx](https://github.com/wilsone24/Optimization-Project/assets/118389840/f3840396-95a0-416a-b0bc-9428f73ca041)
 
 Likewise, to obtain other ways of visualizing the model's quality, we chose to observe the distribution of residuals and the comparison between predicted and actual values. It was found that the highest density of errors is centered around 0; however, there is dispersion and uncertainty. In another graph, it was observed that although initially there is a higher density of data corresponding to lower-priced diamonds, the distributions of the actual and predicted values are similar but differ slightly. As the diamond price increases, it is observed that the behavior of the actual values is not fully captured in the distribution of the predicted values.
 
