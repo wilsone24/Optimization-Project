@@ -55,9 +55,11 @@ Taking into account various observations, it is necessary to highlight the initi
 
 First, we clean the data to remove dimensionless diamonds and eliminate highly atypical diamonds that could pose difficulties for model development. Based on the initial analysis, we choose a linear regression model due to the high correlation between price and many variables, considering that there could be a linear relationship and price is a continuous variable. We select carat and z as variables for our model.
 
-![Diamond dimension](https://github.com/wilsone24/Optimization-Project/assets/118389840/b96a148f-89b6-4daa-a256-ecff1550e735)
+![Untitled video - Made with Clipchamp](https://github.com/wilsone24/Optimization-Project/assets/118389840/30510fff-fdc3-4678-b93b-1ac5ef6a1ec8)
 
 We opted for carat and z because, in our opinion and according to our descriptive analysis, they are the variables that most characterize the price of diamonds. Carat represents the weight of the diamond, and z represents the depth. According to our research, the greater the weight and depth of the diamond, the higher its cost. We discarded the other dimensions (x, y) because when included in the model alongside carat and z, a high correlation was observed among them, and the model's outcome did not significantly vary. Therefore, we selected the variable that had the most influence on the model among the three dimensions. In this initial part of the analysis, we did not use the categorical variables from the dataset because we considered them not highly relevant in this context.
+
+![Diamond dimension](https://github.com/wilsone24/Optimization-Project/assets/118389840/b96a148f-89b6-4daa-a256-ecff1550e735)
 
 ### Validation method and metrics
 
