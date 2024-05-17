@@ -55,36 +55,35 @@ Taking into account various observations, it is necessary to highlight the initi
 
 ### Details about your selection
 
-First, we clean the data to remove dimensionless diamonds. Based on the initial analysis, we choose a linear regression model due to the high correlation between price and many variables, considering that there could be a linear relationship and price is a continuous variable. We select carat and z as our model variables.
-
-![Eq Model](https://github.com/wilsone24/Optimization-Project/assets/118389840/3fa4acae-745c-4587-9c9e-854537ef6ec9)
-
-We opted for carat and z because, in our opinion and according to our descriptive analysis, they are the variables that most characterize the price of diamonds. Carat represents the weight of the diamond, and z represents the depth. According to our research, the greater the weight and depth of the diamond, the higher its cost. We discarded the other dimensions (x, y) because when included in the model alongside carat and z, a high correlation was observed among them, and the model's outcome did not significantly vary. Therefore, we selected the variable that had the most influence on the model among the three dimensions. In this initial part of the analysis, we did not use the categorical variables from the dataset because we considered them not highly relevant in this context.
+First, we clean the data to remove dimensionless diamonds and eliminate highly atypical diamonds that could pose difficulties for model development. Based on the initial analysis, we choose a linear regression model due to the high correlation between price and many variables, considering that there could be a linear relationship and price is a continuous variable. We select carat and z as variables for our model.
 
 ![Diamond dimension](https://github.com/wilsone24/Optimization-Project/assets/118389840/b96a148f-89b6-4daa-a256-ecff1550e735)
 
+
+We opted for carat and z because, in our opinion and according to our descriptive analysis, they are the variables that most characterize the price of diamonds. Carat represents the weight of the diamond, and z represents the depth. According to our research, the greater the weight and depth of the diamond, the higher its cost. We discarded the other dimensions (x, y) because when included in the model alongside carat and z, a high correlation was observed among them, and the model's outcome did not significantly vary. Therefore, we selected the variable that had the most influence on the model among the three dimensions. In this initial part of the analysis, we did not use the categorical variables from the dataset because we considered them not highly relevant in this context.
+
 ### Validation method and metrics
 
-For the model validation process, cross-validation technique was employed to flag problems such as overfitting or selection bias. The data was divided into training and testing sets, with an 80-20 ratio, respectively. First, a linear regression model was fitted using the training data, and then the obtained model was validated using the test data to evaluate its performance against data not seen during the model training.
+For the model validation process, a cross-validation technique was employed to detect issues such as overfitting or selection bias. The data was divided into training and testing sets, with an 80-20 ratio, respectively. The process was repeated 1000 times, where in each iteration, a linear regression model was first fitted using the training data, and then the obtained model was validated using the testing data to evaluate its performance against unseen data during the model training. This allows us to have a better insight and overview of the overall model quality rather than just under one data split, so in each iteration, samples were taken to better understand the model's behavior.
 
 
 
 ![Score and Residuals](https://github.com/wilsone24/Optimization-Project/assets/118389840/39263c05-fecb-45b2-9a39-140bb3661a3f)
 
 
-To primarily evaluate the predictive capability and performance of the model, the score or the coefficient of determination R2 was used as a metric to analyze the correlation between the model predictions and the actual data. We consider this to be the best measure as it provides an idea of the model's fit quality to the data. Additionally, the MSE and RMSE were obtained to assess how close the model predictions are to the actual values.
+To primarily evaluate the predictive capability and performance of the model, the $R^{2}$ score or coefficient of determination was used as a metric to analyze the correlation between the model's predictions and the actual data. We consider this to be the best measure as it provides an idea of the quality of the model's fit to the data. Additionally, the MSE and RMSE were calculated to assess how close the model's predictions are to the actual values. All of this was done considering the model created from the average of the coefficients and intercept, which resulted in a slightly higher score than the average.
 
 | Metric    | Value     |
 |-----------|-----------|
-| Score    | 0.8558926  |
-| MSE      | 2257140.68 |
-| RMSE     | 1502.378   |
+| Score    | 0.8669998  |
+| MSE      | 2077644.93 |
+| RMSE     | 1441.403   |
 
 ### Preliminary conclusions
 
 * It can be established by observing the score that the model is good and largely describes the variability of the price.
 
-* I t is noted that with the other measures, the model is not the most precise; price predictions are not exact and have a margin within which the predicted value can differ from the actual one.
+* I t is noted that the model is not the most precise; price predictions are not exact and have a margin within which the predicted value can differ from the actual one.
 
 * After many tests, it has been determined that the variable that most influences the model is carat.
 
