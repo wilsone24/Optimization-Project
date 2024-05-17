@@ -80,7 +80,7 @@ At the end of the 1000 iterations, an average carat of 10976.82 and an average z
 
 ![Eq_M1](https://github.com/wilsone24/Optimization-Project/assets/118389840/e1b48ccc-0315-45dc-a3a5-bdfc8f3edb81)
 
-![Res-Pred-Real_M1](https://github.com/wilsone24/Optimization-Project/assets/118389840/1ade371f-2e74-47b1-a587-b66b79d4852b)
+![Res-Pred-Real__M1](https://github.com/wilsone24/Optimization-Project/assets/118389840/3af1471a-d0c7-4ef0-a7e9-6790e2e6ed39)
 
 The correlation between the variables of the final model was obtained, noting that they are highly correlated and that removing one would not result in a drastic change in the model's score. It would have an impact and it would be lower, but not drastically so. The regression is observed, showing how well the model fits the data, how much dispersion of the model is captured by the data, and whether what the model says is actually true.
 
