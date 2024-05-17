@@ -43,6 +43,8 @@ Taking into account various observations, it is necessary to highlight the initi
 
 ## Model Selection I
 
+![LR](https://github.com/wilsone24/Optimization-Project/assets/118389840/b83ba0e1-dd6a-4172-a639-d92c63abb7b0)
+
 ### Objectives
 
 * Identify the variables (dimensions and characteristics) that explain to a greater extent the behavior of diamond prices to build the predictive model and understand how these variables affect them.
@@ -55,11 +57,10 @@ Taking into account various observations, it is necessary to highlight the initi
 
 First, we clean the data to remove dimensionless diamonds and eliminate highly atypical diamonds that could pose difficulties for model development. Based on the initial analysis, we choose a linear regression model due to the high correlation between price and many variables, considering that there could be a linear relationship and price is a continuous variable. We select carat and z as variables for our model.
 
-![LR](https://github.com/wilsone24/Optimization-Project/assets/118389840/b83ba0e1-dd6a-4172-a639-d92c63abb7b0)
+![Diamond dimension](https://github.com/wilsone24/Optimization-Project/assets/118389840/b96a148f-89b6-4daa-a256-ecff1550e735)
 
 We opted for carat and z because, in our opinion and according to our descriptive analysis, they are the variables that most characterize the price of diamonds. Carat represents the weight of the diamond, and z represents the depth. According to our research, the greater the weight and depth of the diamond, the higher its cost. We discarded the other dimensions (x, y) because when included in the model alongside carat and z, a high correlation was observed among them, and the model's outcome did not significantly vary. Therefore, we selected the variable that had the most influence on the model among the three dimensions. In this initial part of the analysis, we did not use the categorical variables from the dataset because we considered them not highly relevant in this context.
 
-![Diamond dimension](https://github.com/wilsone24/Optimization-Project/assets/118389840/b96a148f-89b6-4daa-a256-ecff1550e735)
 
 ### Validation method and metrics
 
@@ -83,7 +84,7 @@ At the end of the 1000 iterations, an average carat of 10976.82 and an average z
 
 The correlation between the variables of the final model was obtained, noting that they are highly correlated and that removing one would not result in a drastic change in the model's score. It would have an impact and it would be lower, but not drastically so. The regression is observed, showing how well the model fits the data, how much dispersion of the model is captured by the data, and whether what the model says is actually true.
 
-![xx](https://github.com/wilsone24/Optimization-Project/assets/118389840/f3840396-95a0-416a-b0bc-9428f73ca041)
+![bna](https://github.com/wilsone24/Optimization-Project/assets/118389840/68610b0d-3db5-4292-8243-ecc12ccf6cfb)
 
 Likewise, to obtain other ways of visualizing the model's quality, we chose to observe the distribution of residuals and the comparison between predicted and actual values. It was found that the highest density of errors is centered around 0; however, there is dispersion and uncertainty. In another graph, it was observed that although initially there is a higher density of data corresponding to lower-priced diamonds, the distributions of the actual and predicted values are similar but differ slightly. As the diamond price increases, it is observed that the behavior of the actual values is not fully captured in the distribution of the predicted values.
 
