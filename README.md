@@ -165,7 +165,7 @@ The distribution of residuals and predicted values was verified compared to the 
 
 ### How does this model compare to the first one?
 
-* The score was improved, increasing from 0.88 to 0.975, indicating an improvement in the model's quality.
+* The score was improved, increasing from 0.866 to 0.975, indicating an improvement in the model's quality.
 
 * Regarding the obtained residuals, there is a reduction in their dispersion in the neural network compared to linear regression.
 
